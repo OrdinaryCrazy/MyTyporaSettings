@@ -11,20 +11,21 @@
 @include-when-export url(https://raw.githubusercontent.com/slashfoo/lmweb/master/style/latinmodern-mono-light.css);
 
 html {
-    font-size: 12pt;
+    font-size: 16pt;
 }
 
 @font-face {
-    font-family: 'STIX2Text';
+    font-family: '汉仪南宫体简','STIX2Text';
     font-style: normal;
     font-weight: normal;
+    font-size: 16pt;
     src: local('STIX2Text Regular'),
         url('./academic/STIX2Text-Regular.woff') format('woff'),
         url('ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff')
 }
 
 @font-face {
-    font-family: 'STIX2Text';
+    font-family: '汉仪南宫体简','STIX2Text';
     font-style: italic;
     font-weight: normal;
     src: local('STIX2Text Italic'),
@@ -33,7 +34,7 @@ html {
 }
 
 @font-face {
-    font-family: 'STIX2Text';
+    font-family: '汉仪南宫体简','STIX2Text';
     font-style: normal;
     font-weight: bold;
     src: local('STIX2Text Bold'),
@@ -42,7 +43,7 @@ html {
 }
 
 @font-face {
-    font-family: 'STIX2Text';
+    font-family: '汉仪南宫体简','STIX2Text';
     font-style: italic;
     font-weight: bold;
     src: local('STIX2Text Bold Italic'),
@@ -51,7 +52,7 @@ html {
 }
 
 @font-face {
-    font-family: 'STIX2Math';
+    font-family: 'STIX2Math','汉仪南宫体简';
     font-style: italic;
     font-weight: bold;
     src: local('STIX2Math'),url('./academic/STIX2Math.woff') format('woff')
@@ -83,7 +84,7 @@ html {
 }
 
 #write {
-    font-family: "STIX2Text", "Times New Roman", "serif";
+    font-family: "STIX2Text", "Times New Roman", "serif",'汉仪南宫体简';
     line-height: 1.5em;
     padding: 10%;
     padding-top: 5%;
@@ -107,7 +108,7 @@ a, a:visited {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: inherit;
+    font-family: '汉仪南宫体简',inherit;
     line-height: 1.5em;
     margin-bottom: 1em;
     margin-top: 1em;
